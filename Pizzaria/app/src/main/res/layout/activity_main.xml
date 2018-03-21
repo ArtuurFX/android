@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdgPizzas">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/mussarela"
+            android:id="@+id/rdbMussarela"
+            android:onClick="Selecionar"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/calabresa"
+            android:id="@+id/rdbCalabresa"
+            android:onClick="Retornar"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/portuguesa"
+            android:id="@+id/rdbPortuguesa"
+            android:onClick="Retornar" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/brigadeiro"
+            android:id="@+id/rdbBrigadeiro"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/romeu_e_julieta"
+            android:id="@+id/rdbRomeuJulieta"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/borda_recheada"
+        android:textSize="18sp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/chkBordaRechada"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:textSize="18sp"
+        android:layout_marginTop="10sp"
+        android:onClick="Calcular"/>
+
+</LinearLayout>

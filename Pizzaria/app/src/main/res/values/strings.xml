@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Pizzaria</string>
+    <string name="mussarela">Mussarela</string>
+    <string name="calabresa">Calabresa</string>
+    <string name="portuguesa">Portuguesa</string>
+    <string name="brigadeiro">Brigadeiro</string>
+    <string name="romeu_e_julieta">Romeu e Julieta</string>
+    <string name="borda_recheada">Borda Recheada</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="rs0">R$00,00</string>
+</resources>
